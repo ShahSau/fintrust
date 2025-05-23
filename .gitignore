@@ -1,6 +1,7 @@
 .vscode
 .DS_Store
 .envs/*
+staticfiles/
 
 !.envs/.env.example
 ### Python ###
