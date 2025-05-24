@@ -144,6 +144,21 @@ STATIC_ROOT = str(BASE_DIR / 'staticfiles')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'user_auth.User'
+REST_FRAMEWORK = {
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+    
+}
+
+SPECTACULAR_SETTINGS = {
+    "TITLE": "Fintrust API",
+    "DESCRIPTION": "An API built for a banking system",
+    "VERSION": "1.0.0",
+    "SERVE_INCLUDE_SCHEMA": False,
+    "LICENSE": {
+        "name": "Apache-2.0 license",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.html",
+    },
+}
 
 LOGGING_CONFIG = None
 
