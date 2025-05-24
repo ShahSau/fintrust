@@ -1,0 +1,1 @@
+Docker, RabbitMq, Redis, postgres, mailpit, celery, nginx, Django, pillow, flower, djangoRESTFramework, cloudinary, loguru, swagger, drf-spectacula, psycopg2
