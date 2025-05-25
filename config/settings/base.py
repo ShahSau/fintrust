@@ -146,6 +146,11 @@ STATIC_ROOT = str(BASE_DIR / 'staticfiles')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'user_auth.User'
+DEFAULT_BIRTH_DATE = date(1990, 1, 1)
+DEFAULT_DATE = date(2025, 1, 1)
+DEFAULT_EXPIRY_DATE = date(2044, 1, 1)
+DEFAULT_COUNTRY = "DE"
+DEFAULT_PHONE_NUMBER = "+491782189734"
 REST_FRAMEWORK = {
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     
