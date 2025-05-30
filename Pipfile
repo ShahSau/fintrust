@@ -27,6 +27,7 @@ flower = "==2.0.1"
 django-redis = "==5.4.0"
 watchfiles = "==0.22.0"
 black = "==24.8.0"
+reportlab = "==4.2.2"
 
 [dev-packages]
 
