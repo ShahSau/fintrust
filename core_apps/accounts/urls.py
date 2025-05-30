@@ -1,5 +1,8 @@
 from django.urls import path
-from .views import AccountVerificationView
+from .views import (
+    AccountVerificationView,
+     DepositView,
+)
 
 urlpatterns = [
     path(
@@ -7,5 +10,6 @@ urlpatterns = [
         AccountVerificationView.as_view(),
         name="account_verification",
     ),
+     path("deposit/", DepositView.as_view(), name="account_deposit"),
     
 ]
